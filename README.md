@@ -1,3 +1,10 @@
+Extra notes:
+- python must be installed on destination node first or else this ansible script will fail
+- also copy over the public key to the server before running it (cat ~/.ssh/id_rsa.pub, save it to clipboard,
+login to server and paste it in under nano ~/.ssh/authorized_keys)
+- the password field in the config is the password for the server fed into mkpasswd --method=sha-512
+
+
 # 5Minutes - Server Security Essentials
 
 **Secure your Linux server with single command!**
